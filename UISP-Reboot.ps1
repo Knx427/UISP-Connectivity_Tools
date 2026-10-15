@@ -14,8 +14,8 @@ if (-not $ip) {
 }
 
 # --- UISP Configuration ---
-$UispUrl   = "https://[Host]/nms/api/v2.1" # Example URI
-$ApiToken  = "[API-Token]"    # Get Api from USIP Devices Settings
+$UispUrl   = "https://[Host]/nms/api/v2.1" # UISP API base URL
+$ApiToken  = "[API-Token]"    # Get Api from USIP Users Settings
 
 $Headers = @{                               
     "x-auth-token" = $ApiToken            # Set Payload Headers
