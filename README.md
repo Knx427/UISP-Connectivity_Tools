@@ -8,6 +8,9 @@ PowerShell utilities for UISP network management and connectivity monitoring.
 ## Usage
 
 Each utility includes a Windows batch `.bat` launcher that executes its corresponding PowerShell `.ps1` script.
+
 Keep each `.bat` file in the same directory as its corresponding `.ps1` script.
+
 Run the desired `.bat` file to launch the utility.
-Optionally, create Windows shortcuts to the batch files for quick access from your desktop.
+
+*Optionally, create Windows shortcuts to the batch files for quick access from your desktop.*
